@@ -80,7 +80,7 @@
                     </span>
                 </div>
                 <div class="margin-bottom-20 grey-500">
-                  <center>  <img src="<?php echo site_url(); ?>assets/image/rusak_ringan.png"><center>
+                  <center>  <img src="<?php echo site_url(); ?>assets/Image/rusak_ringan.png"><center>
                 </div>
 
               </div>
@@ -106,7 +106,7 @@
                     </span>
                 </div>
                 <div class="margin-bottom-20 grey-500">
-              <center>  <img src="<?php echo site_url(); ?>assets/image/rusak_berat.png"><center>
+              <center>  <img src="<?php echo site_url(); ?>assets/Image/rusak_berat.png"><center>
                 </div>
 
               </div>
@@ -133,7 +133,7 @@
                   </span>
                 </div>
                 <div class="margin-bottom-20 grey-500">
-                  <center>  <img src="<?php echo site_url(); ?>assets/image/belum_tembus.png"><center>
+                  <center>  <img src="<?php echo site_url(); ?>assets/Image/belum_tembus.png"><center>
                 </div>
 
               </div>
