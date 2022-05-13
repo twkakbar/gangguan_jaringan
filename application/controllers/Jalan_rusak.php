@@ -44,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                <strong>Gagal!</strong> Gambar Terlalu Besar.
                </div>');
-               redirect('tambah_jalan_rusak');
+               redirect('tambah_gangguan_jaringan');
        }else {
              $cek=$this->M_Jalan_rusak->tambah_jalan_rusak($new_name);
              if($cek){
