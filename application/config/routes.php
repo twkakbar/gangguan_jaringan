@@ -59,7 +59,7 @@ $route['popup'] = 'Peta/popup';
 
 /*-----------------------------------------------------------------------*/
 $route['pengaduan'] = 'Pengaduan';
-$route['tambah_pengaduan'] = 'Pengaduan/tambah_pengaduan';
+$route['tambah_pengaduan'] = 'Pengaduan/Tambah_pengaduan';
 $route['detail_pengaduan'] = 'Pengaduan/detail_pengaduan';
 $route['verifikasi_pengaduan'] = 'Pengaduan/verifikasi_pengaduan';
 
@@ -75,12 +75,12 @@ $route['ubah_kecamatan'] = 'Kecamatan/ubah_kecamatan';
 
 /*-----------------------------------------------------------------------*/
 $route['pop'] = 'Jalan';
-$route['tambah_pop'] = 'Jalan/tambah_jalan';
+$route['tambah_pop'] = 'Jalan/Tambah_jalan';
 $route['edit_jalan'] = 'Jalan/edit_jalan';
 $route['detail_jalan'] = 'Jalan/detail_jalan';
 
 /*-----------------------------------------------------------------------*/
-$route['tambah_gangguan_jaringan'] = 'Jalan_rusak/tambah_jalan_rusak';
+$route['tambah_gangguan_jaringan'] = 'Jalan_rusak/Tambah_jalan_rusak';
 $route['gangguan_jaringan'] = 'Jalan_rusak';
 $route['detail_jalan_rusak'] = 'Jalan_rusak/detail_jalan_rusak';
 $route['edit_jalan_rusak'] = 'Jalan_rusak/edit_jalan_rusak';
