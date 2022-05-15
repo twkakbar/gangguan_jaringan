@@ -39,6 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
        if ( ! $this->upload->do_upload('gambar')) {
             $data['error'] = $this->upload->display_errors();
+            redirect('tambah_gangguan_jaringan');
        }else {
              $cek=$this->M_Jalan_rusak->tambah_jalan_rusak($new_name);
              if($cek){
