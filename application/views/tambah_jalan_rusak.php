@@ -315,7 +315,7 @@
 
                   </div>
                   <div class="form-group form-material ">
-                    <label class="col-lg-3 col-sm-3 control-label">Uploas Gambar
+                    <label class="col-lg-3 col-sm-3 control-label">Upload Gambar
                       <span class="required">*</span>
                     </label>
                     <div class=" col-lg-9 col-sm-9">
@@ -333,6 +333,9 @@
 
 
                 </div>
+		<?php if (isset($error)) : ?>
+					<div class="invalid-feedback"><?= $error ?></div>
+				<?php endif; ?>
                 <div class="form-group form-material col-lg-12 text-right padding-top-m">
                   <button type="submit" class="btn btn-primary waves-effect waves-light" >Submit</button>
                 </div>
