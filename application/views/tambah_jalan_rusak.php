@@ -320,7 +320,7 @@
                     </label>
                     <div class=" col-lg-9 col-sm-9">
                       <div class="input-group input-group-file">
-                        //<input type="text" class="form-control" readonly="">
+                        <input type="text" class="form-control" readonly="">
                         <span class="input-group-btn">
                           <span class="btn btn-primary btn-file waves-effect waves-light">
                             <i class="icon md-upload" aria-hidden="true"></i>
