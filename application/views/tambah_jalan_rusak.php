@@ -320,7 +320,7 @@
                     </label>
                     <div class=" col-lg-9 col-sm-9">
                       <div class="input-group input-group-file">
-                        <input type="text" class="form-control" readonly="">
+                        //<input type="text" class="form-control" readonly="">
                         <span class="input-group-btn">
                           <span class="btn btn-primary btn-file waves-effect waves-light">
                             <i class="icon md-upload" aria-hidden="true"></i>
@@ -334,8 +334,8 @@
 
                 </div>
 		<?php if (isset($error)) : ?>
-					<div class="invalid-feedback"><?= $error ?></div>
-				<?php endif; ?>
+			<div class="invalid-feedback"><?= $error ?></div>
+		<?php endif; ?>
                 <div class="form-group form-material col-lg-12 text-right padding-top-m">
                   <button type="submit" class="btn btn-primary waves-effect waves-light" >Submit</button>
                 </div>
