@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
        		$this->load->view('tambah_jalan_rusak',$data);
       }
       function proses_tambah_jalan_rusak(){
-       $config['upload_path']   = FCPATH.'/uploads/';
+       $config['upload_path']   = '/opt/lampp/htdocs/gangguan_jaringan/uploads';
        $config['allowed_types'] = 'png|PNG|JPG|jpg|jpeg|JPE|gif|bmp';
        $config['max_size']      = 20000;
        //$config['max_width']     = 10240;
@@ -38,13 +38,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
        $this->load->library('upload', $config);
 
        if ( ! $this->upload->do_upload('gambar')) {
-            $data['error'] = $this->upload->display_errors();
-            redirect('tambah_gangguan_jaringan');
+               $this->session->set_flashdata('pesan', '
+               <div class="alert alert-danger fade in">
+               <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+               <strong>Gagal!</strong> Gambar Terlalu Besar.
+               </div>');
+               redirect('tambah_gangguan_jaringan');
        }else {
              $cek=$this->M_Jalan_rusak->tambah_jalan_rusak($new_name);
              if($cek){
                $this->tambah_berhasil();
-               redirect('tambah_gangguan_jaringan');
+               redirect('gangguan_jaringan');
              }else{
                $this->tambah_gagal();
                redirect('tambah_gangguan_jaringan');
