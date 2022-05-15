@@ -60,7 +60,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
        $photo_baru=$_FILES["gambar"] ['name'];
 
        if(!empty($photo_baru)){
-            $config['upload_path']   = './uploads/';
+            $config['upload_path']   = '/opt/lampp/htdocs/gangguan_jaringan/uploads';
             $config['allowed_types'] = 'png|PNG|JPG|jpg|jpeg|JPE|gif|bmp';
             $config['max_size']      = 99999999;
             //$config['max_width']     = 10240;
@@ -101,7 +101,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       $photo_baru=$_FILES["gambar"] ['name'];
 
       if(!empty($photo_baru)){
-           $config['upload_path']   = './uploads/';
+           $config['upload_path']   = '/opt/lampp/htdocs/gangguan_jaringan/uploads';
            $config['allowed_types'] = 'png|PNG|JPG|jpg|jpeg|JPE|gif|bmp';
            $config['max_size']      = 99999999;
            //$config['max_width']     = 10240;
@@ -144,7 +144,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
      function proses_tambah_jalan_rusak_pengaduan(){
-      $config['upload_path']   = './uploads/';
+      $config['upload_path']   = '/opt/lampp/htdocs/gangguan_jaringan/uploads';
       $config['allowed_types'] = 'png|PNG|JPG|jpg|jpeg|JPE|gif|bmp';
       $config['max_size']      = 99999999;
       //$config['max_width']     = 10240;
