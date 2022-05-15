@@ -38,13 +38,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
        $this->load->library('upload', $config);
 
        if ( ! $this->upload->do_upload('gambar')) {
-
-               $this->session->set_flashdata('pesan', '
-               <div class="alert alert-danger fade in">
-               <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-               <strong>Gagal!</strong> Gambar Terlalu Besar.
-               </div>');
-               redirect('tambah_gangguan_jaringan');
+            $data['error'] = $this->upload->display_errors();
        }else {
              $cek=$this->M_Jalan_rusak->tambah_jalan_rusak($new_name);
              if($cek){
