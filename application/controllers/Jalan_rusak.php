@@ -27,9 +27,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
        		$this->load->view('tambah_jalan_rusak',$data);
       }
       function proses_tambah_jalan_rusak(){
-       $config['upload_path']   = './uploads/';
+       $config['upload_path']   = FCPATH.'/uploads/';
        $config['allowed_types'] = 'png|PNG|JPG|jpg|jpeg|JPE|gif|bmp';
-       $config['max_size']      = 99999999;
+       $config['max_size']      = 20000;
        //$config['max_width']     = 10240;
        //$config['max_height']    = 7680;
        $new_name ="GANGGUAN_JARINGAN".time().$_FILES["gambar"] ['name'];
