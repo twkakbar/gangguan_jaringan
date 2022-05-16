@@ -1,7 +1,7 @@
 def secret = 'Github'
 def server = 'ubuntu@52.38.17.146'
 def directory = '/opt/lampp/htdocs/gangguan_jaringan'
-def branch = 'main'
+def branch = 'master'
 
 pipeline{
     agent any
