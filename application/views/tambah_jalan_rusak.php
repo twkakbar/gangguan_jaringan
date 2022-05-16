@@ -228,19 +228,19 @@
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputAwesome" name="kondisi" value="1" required="" data-fv-field="porto_is">
-                            <label for="inputAwesome">Rusak Ringan <span id="ringan"></span></label>
+                            <label for="inputAwesome">Gangguan Jaringan Ringan <span id="ringan"></span></label>
                           </div>
                         </div>
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputVeryAwesome" name="kondisi" value="2" data-fv-field="porto_is">
-                            <label for="inputVeryAwesome">Rusak Berat <span id="berat"></span></label>
+                            <label for="inputVeryAwesome">Gangguan Jaringan Berat <span id="berat"></span></label>
                           </div>
                         </div>
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputUltraAwesome" name="kondisi" value="3" data-fv-field="porto_is">
-                            <label for="inputUltraAwesome">Belum Tembus <span id="belum_tembus"></span></label>
+                            <label for="inputUltraAwesome">User Complain <span id="belum_tembus"></span></label>
                           </div>
                         </div>
                       </div>
