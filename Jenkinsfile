@@ -1,6 +1,6 @@
 def secret = 'Github'
 def server = 'ubuntu@52.38.17.146'
-def directory = 'gangguan_jaringan'
+def directory = '/opt/lampp/htdocs/gangguan_jaringan'
 def branch = 'main'
 
 pipeline{
