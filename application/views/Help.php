@@ -158,7 +158,7 @@ Breakpoints();
                       <div class="panel-collapse collapse" id="answer-6" aria-labelledby="question-6"
                       role="tabpanel">
                         <div class="panel-body">
-                          Hasil Pengaduan Dapat dilihat Pada Menu Pengaduan Masyarakat -> Lihat Pengaduan.
+                          Hasil Pengaduan Dapat dilihat Pada Menu Pengaduan User -> Lihat Pengaduan.
                         </div>
                       </div>
                     </div>
