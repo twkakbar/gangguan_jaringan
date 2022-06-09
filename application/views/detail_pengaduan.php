@@ -182,7 +182,7 @@
                 </div>
                 <div class="col-lg-6 form-horizontal">
                   <div class="form-group form-material ">
-                    <label class="col-lg-3 col-sm-3 control-label">Kondisi Jalan
+                    <label class="col-lg-3 col-sm-3 control-label">Kondisi Jaringan
                       <span class="required">*</span>
                     </label>
                     <div class="col-lg-9 col-sm-9 ">
@@ -210,11 +210,11 @@
                     <small class="help-block" data-fv-validator="notEmpty" data-fv-for="porto_is" data-fv-result="VALID" style="display: none;">Please specify at least one</small></div>
                   </div>
                   <div class="form-group form-material ">
-                    <label class="col-lg-3 col-sm-3 control-label">Luas Jalan Rusak
+                    <label class="col-lg-3 col-sm-3 control-label">Keterangan Gangguan Lainnya
                       <span class="required">*</span>
                     </label>
                     <div class=" col-lg-9 col-sm-9">
-                      <input type="text" class="form-control" name="luas_jalan"  value="<?php echo $pengaduan->luas_jalan?>" readonly placeholder="Luas Jalan Rusak" required="" >
+                      <input type="text" class="form-control" name="luas_jalan"  value="<?php echo $pengaduan->luas_jalan?>" readonly placeholder="Keterangan Gangguan Lainnya" required="" >
                     </div>
                   </div>
                   <div class="form-group form-material ">
