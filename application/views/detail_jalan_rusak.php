@@ -193,7 +193,7 @@
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputUltraAwesome" name="kondisi" <?php if($data_jalan_rusak->kondisi==3){echo"checked"; } ?> value="3" data-fv-field="porto_is">
-                            <label for="inputUltraAwesome">Gangguan Tembus</label>
+                            <label for="inputUltraAwesome">User Complain</label>
                           </div>
                         </div>
                       </div>
