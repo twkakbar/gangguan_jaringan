@@ -180,7 +180,7 @@ $("#kabupaten").change(function(){
 
                 <div class="col-lg-6 form-horizontal">
                   <div class="form-group form-material ">
-                    <label class="col-lg-3 col-sm-3 control-label">Kondisi Jalan
+                    <label class="col-lg-3 col-sm-3 control-label">Kondisi Jaringan
                       <span class="required">*</span>
                     </label>
                     <div class="col-lg-9 col-sm-9 ">
@@ -189,19 +189,19 @@ $("#kabupaten").change(function(){
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputAwesome" <?php if($data_jalan_rusak->kondisi==1){echo"checked"; } ?>  name="kondisi" value="1" required="" data-fv-field="porto_is">
-                            <label for="inputAwesome">Rusak Ringan</label>
+                            <label for="inputAwesome">Gangguan Ringan</label>
                           </div>
                         </div>
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputVeryAwesome" name="kondisi" <?php if($data_jalan_rusak->kondisi==2){echo"checked"; } ?> value="2" data-fv-field="porto_is">
-                            <label for="inputVeryAwesome">Rusak Berat</label>
+                            <label for="inputVeryAwesome">Gangguan Berat</label>
                           </div>
                         </div>
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputUltraAwesome" name="kondisi" <?php if($data_jalan_rusak->kondisi==3){echo"checked"; } ?> value="3" data-fv-field="porto_is">
-                            <label for="inputUltraAwesome">Belum Tembus</label>
+                            <label for="inputUltraAwesome">User Complain</label>
                           </div>
                         </div>
                       </div>
