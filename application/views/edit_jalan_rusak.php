@@ -212,7 +212,7 @@ $("#kabupaten").change(function(){
                       <span class="required">*</span>
                     </label>
                     <div class=" col-lg-9 col-sm-9">
-                      <input type="text" class="form-control" name="luas_jalan" value="<?php echo $data_jalan_rusak->luas_jalan?>"  placeholder="pop Jalan Rusak" required="" >
+                      <input type="text" class="form-control" name="luas_jalan" value="<?php echo $data_jalan_rusak->luas_jalan?>"  placeholder="Keterangan Gangguan Lainnya" required="" >
                     </div>
                   </div>
                   <div class="form-group form-material ">
