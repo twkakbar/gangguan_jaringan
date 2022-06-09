@@ -78,11 +78,11 @@
       <h1 class="page-title"><?php echo $data_jalan_rusak->nama_jalan?></h1>
       <?php
       if($data_jalan_rusak->kondisi==1){
-        echo '<span class="label label-round label-warning">Rusak Ringan</span>';
+        echo '<span class="label label-round label-warning">Gangguan Ringan</span>';
       }else if($data_jalan_rusak->kondisi==2){
-        echo '<span class="label label-round label-danger">Rusak Parah</span>';
+        echo '<span class="label label-round label-danger">Gangguan Berat</span>';
       }else if($data_jalan_rusak->kondisi==3){
-        echo '<span class="label label-round label-primary">Belum Tembus</span>';
+        echo '<span class="label label-round label-primary">User Complain</span>';
       }
 
       ?>
