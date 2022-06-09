@@ -191,19 +191,19 @@
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputAwesome" name="kondisi" value="1" <?php if($pengaduan->kondisi==1){echo"checked"; } ?> required="" data-fv-field="porto_is">
-                            <label for="inputAwesome">Rusak Ringan</label>
+                            <label for="inputAwesome">Gangguan Ringan</label>
                           </div>
                         </div>
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputVeryAwesome" name="kondisi" <?php if($pengaduan->kondisi==2){echo"checked"; } ?> value="2" data-fv-field="porto_is">
-                            <label for="inputVeryAwesome">Rusak Berat</label>
+                            <label for="inputVeryAwesome">Gangguan Berat</label>
                           </div>
                         </div>
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputUltraAwesome" name="kondisi" <?php if($pengaduan->kondisi==3){echo"checked"; } ?> value="3" data-fv-field="porto_is">
-                            <label for="inputUltraAwesome">Belum Tembus</label>
+                            <label for="inputUltraAwesome">User Complain</label>
                           </div>
                         </div>
                       </div>
