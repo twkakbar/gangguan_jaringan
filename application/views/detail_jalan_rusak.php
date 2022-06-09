@@ -319,7 +319,7 @@
                 <?php echo"
 
 
-                <a href='". site_url()."edit_jalan_rusak?id=$data_jalan_rusak->kode_jalan_rusak' onclick=\"return confirm('Apakah Anda Yakin Untuk Mengubah Data Jalan Rusak ?')
+                <a href='". site_url()."edit_jalan_rusak?id=$data_jalan_rusak->kode_jalan_rusak' onclick=\"return confirm('Apakah Anda Yakin Untuk Mengubah Data Gangguan Jaringan ?')
                     \" title='Hapus'><button type='button' class='btn btn-warning'>Edit Gangguan Jaringan</button></a>
                 <center>
                   ";?>
