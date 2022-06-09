@@ -222,8 +222,8 @@ $("#kabupaten").change(function(){
                     <div class="col-lg-9 col-sm-9 ">
                       <div class="input-group" required>
 
-                        <div>
-                          <div class="radio-custom radio-primary">
+                        <!-- <div>
+                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputAwesome" name="kondisi" value="1" <?php if($pengaduan->kondisi==1){echo"checked"; } ?> required="" data-fv-field="porto_is">
                             <label for="inputAwesome">Gangguan Jaringan Ringan</label>
                           </div>
@@ -233,7 +233,7 @@ $("#kabupaten").change(function(){
                             <input type="radio" id="inputVeryAwesome" name="kondisi" <?php if($pengaduan->kondisi==2){echo"checked"; } ?> value="2" data-fv-field="porto_is">
                             <label for="inputVeryAwesome">Gangguan Jaringan Berat</label>
                           </div>
-                        </div>
+                        </div> -->
                         <div>
                           <div class="radio-custom radio-primary">
                             <input type="radio" id="inputUltraAwesome" name="kondisi" <?php if($pengaduan->kondisi==3){echo"checked"; } ?> value="3" data-fv-field="porto_is">
