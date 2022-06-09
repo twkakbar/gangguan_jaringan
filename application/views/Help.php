@@ -76,7 +76,7 @@ Breakpoints();
                       <div class="panel-heading" id="question-1" role="tab">
                         <a class="panel-title" aria-controls="answer-1" aria-expanded="true" data-toggle="collapse"
                         href="#answer-1" data-parent="#accordion2">
-                      Apa Itu Sistem Informasi Geografis Gangguan Jaringan ?
+                      Apa Itu Sistem Informasi Gangguan Jaringan ?
                       </a>
                       </div>
                       <div class="panel-collapse collapse in" id="answer-1" aria-labelledby="question-1"
